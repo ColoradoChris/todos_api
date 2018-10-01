@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 var todoSchema = new mongoose.Schema({
     name: {
         type: String,
-        require: 'Name cannot be blank!'
+        required: 'Name cannot be blank!'
     },
     completed: {
         type: Boolean,

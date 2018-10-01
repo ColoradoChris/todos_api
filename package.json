@@ -1,0 +1,26 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "An API that serves tasks that need to be done.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColoradoChris/todos_api.git"
+  },
+  "keywords": [
+    "API",
+    "TODOs"
+  ],
+  "author": "Chris Kansas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColoradoChris/todos_api/issues"
+  },
+  "homepage": "https://github.com/ColoradoChris/todos_api#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
